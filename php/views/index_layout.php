@@ -9,14 +9,15 @@
 </head>
 <body>
     <main>
+    <header>
         <p>
             <?= $story['body'] ?>
         </p>
-
+</header>
         <ul>
             <?php foreach ($links as $link): ?>
                 <li>
-                <a href="?id=<?= $link['target_id'] ?>">
+                <a href="?id=<?= $link['taget_id'] ?>">
                 <?=$link['description']?>
             
             </a>

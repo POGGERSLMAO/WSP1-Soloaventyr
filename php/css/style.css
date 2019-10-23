@@ -1,19 +1,32 @@
 body {
-    background-color: bisque;
+    background-color: black;
     font-size: 16px;
 }
 
 main {
     width: 60%;
     margin: 0 auto;
+    
+}
+
+header {
+    height:200px;
+    background-color:red;
 }
 
 p {
     font-size: 1.4em;
+    text-align: center;
+
 }
 
 ul {
     list-style: none;
     display: flex;
     justify-content: space-evenly;
+    background-color: red; 
+    height:40px;
+    font-size:2em;
+    
 }
+
